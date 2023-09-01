@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Matematica</title>
+</head>
+<body>
+    <div class="start" style="display: block;">
+        <h1>Selecteaza tipul de calcul</h1>
+        <button class="x1">calcul simplu</button>
+        <button class="x2">calcul radical</button>
+
+        <div class="info">
+            <h2>info</h2>
+            Pe acest site puteti calcula diferite ecuati matematice pe vitor vor veni mai multe functii
+        </div>
+    </div>
+    <div class="select1" style="display: none;">
+       <button class="adunare">adunare</button>
+       <button class="minus">minus</button>
+       <button class="ori">ori</button>
+       <button class="impartire">impartire</button>
+
+       <div class="calc1">
+        <input type="text" name="" id="" class="a">
+        <div class="select1-a">==</div>
+        <input type="text" name="" id="" class="b">
+        <button class="calc01">calculeaza</button>
+        <h2>rezultat</h2>
+        <div class="rezultat1"></div>
+       </div>
+    </div>
+    <div class="select2" style="display: none;">
+        <div class="putere" style="display: none;">
+            <input type="text" name="" id="" class="a2">
+        </div>
+        <div>
+            <div class="symbol1">√</div>
+            <input type="text" name="" id="" class="a1">
+         </div>
+         
+        <button class="calc02">calculeaza</button>
+        <h2>rezultat</h2>
+        <div class="rezultat2"></div>
+
+        <div class="optiunii">
+            <button class="o1" disabled>√a^2</button>
+            <button class="o2">√a</button>
+            <button class="o3" disabled>√a*b</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
